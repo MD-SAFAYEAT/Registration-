@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp</title>
+<style>
+body{
+	background:#3232;
+}
+.wrap{
+	width: 350px;
+	margin: auto;
+	background: #00adee;
+	margin-top: 50px;
+	padding: 5px;
+}
+
+from{
+	padding: 10px;
+	font-family: arial;
+		
+
+}
+h2{
+	text-align: center;
+	background: orange;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+
+
+}
+input{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: none;
+}
+input[type=text], input[type=email], input[type=number], input[type=password]{
+	width: 90%;
+}
+input[type=submit]{
+	width: 95%;
+	background: orange;
+	cursor: pointer;
+	font-size: 18px;
+	color: white;
+}
+input[type=submit]:hover{
+	background: yellow;
+}
+select{
+	padding: 10px;
+	width: 32%;
+	border-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+	<div class="wrap">
+		<from>
+			<h2>SignUp</h2>
+			<input type="text" name="Your name" placeholder="Your Name">
+			<input type="email" name="email" placeholder="Your Email">
+			<input type="number" name="mnumber" placeholder="Mobile Number">
+			<input type="password" name="password" placeholder="Password">
+			<input type="password" name="conformpassword" placeholder="Conform Password">
+			<br>
+			<br>
+			<span style="Fornt size: 18px"> Date of Birth</span>
+			<br>
+		<select name="DoBmonth">
+			<option> Month</option>
+			<option value="january">January</option>
+			<option value="february">Fanuary</option>
+		</select>
+
+
+		<select name="DoBday">
+			<option> Day</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+		</select>
+
+
+
+		<select name="DoByear">
+			<option> Year</option>
+			<option value="2018">2018</option>
+			<option value="2019">2019</option>
+		</select>
+		<br>
+		<br>
+
+		<input type="radio" name="male" value="male"> Male
+		<input type="radio" name="female" value="Female"> Female
+		
+		<br>
+
+		<input type="checkbox"> I Agree to The Trams of Use
+		
+		<br>
+
+		<input type="submit" value="Submit Now">
+
+
+
+	</from>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
